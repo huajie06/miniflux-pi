@@ -1,0 +1,139 @@
+sources:
+  rss:
+    - name: hacker-news-rss
+      url: "https://news.ycombinator.com/rss"
+      enabled: true
+      category: tech
+    - name: nyt-business
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"
+      enabled: true
+      category: markets
+    - name: nyt-economy
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml"
+      enabled: true
+      category: economy
+    - name: nyt-dealbook
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/DealBook.xml"
+      enabled: true
+      category: markets
+    - name: nyt-world
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+      enabled: true
+      category: world
+    - name: nyt-politics
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml"
+      enabled: true
+      category: politics
+    - name: nyt-tech
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+      enabled: true
+      category: tech
+    - name: economist-finance
+      url: "https://www.economist.com/finance-and-economics/rss.xml"
+      enabled: true
+      category: economy
+    - name: federal-reserve
+      url: "https://www.federalreserve.gov/feeds/press_all.xml"
+      enabled: true
+      category: central-bank
+    - name: ecb
+      url: "https://www.ecb.europa.eu/rss/press.html"
+      enabled: true
+      category: central-bank
+    - name: boj
+      url: "https://www.boj.or.jp/en/rss/whatsnew.xml"
+      enabled: true
+      category: central-bank
+    - name: project-syndicate
+      url: "https://www.project-syndicate.org/rss"
+      enabled: true
+      category: economy
+    - name: scmp-china
+      url: "https://www.scmp.com/rss/4/feed/"
+      enabled: true
+      category: china
+    - name: ny-fed-lse
+      url: "https://libertystreeteconomics.newyorkfed.org/rss/"
+      enabled: true
+      category: central-bank
+    - name: stlouis-fed
+      url: "https://fredblog.stlouisfed.org/feed/"
+      enabled: true
+      category: central-bank
+    - name: bbc-business
+      url: "https://feeds.bbci.co.uk/news/business/rss.xml"
+      enabled: true
+      category: markets
+    - name: sec
+      url: "https://www.sec.gov/news/pressreleases.rss"
+      enabled: true
+      category: government
+    - name: bis
+      url: "https://www.bis.org/doclist/all_pressrels.rss"
+      enabled: true
+      category: central-bank
+    - name: reuters-top
+      url: "https://feeds.reuters.com/reuters/topNews"
+      enabled: true
+      category: markets
+    - name: axios-top
+      url: "https://api.axios.com/feed/top_stories"
+      enabled: false
+      category: markets
+    - name: techcrunch
+      url: "https://techcrunch.com/feed/"
+      enabled: true
+      category: tech
+    - name: ars-technica
+      url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
+      enabled: true
+      category: tech
+    - name: mit-tech-review
+      url: "https://www.technologyreview.com/feed/"
+      enabled: true
+      category: tech
+    - name: nikkei-asia
+      url: "https://asia.nikkei.com/rss/feed/nar"
+      enabled: true
+      category: asia
+    - name: politico-politics
+      url: "https://rss.politico.com/politics-news.xml"
+      enabled: true
+      category: politics
+    # Macro / Deep Analysis
+    - name: calculated-risk
+      url: "https://www.calculatedriskblog.com/feeds/posts/default?alt=rss"
+      enabled: true
+      category: macro
+    - name: ft-alphaville
+      url: "https://www.ft.com/alphaville?format=rss"
+      enabled: true
+      category: macro
+    - name: marginal-revolution
+      url: "https://marginalrevolution.com/feed"
+      enabled: true
+      category: macro
+    - name: noah-smith
+      url: "https://www.noahpinion.blog/feed"
+      enabled: true
+      category: macro
+    - name: the-money-illusion
+      url: "https://themoneyillusion.com/feed/"
+      enabled: true
+      category: macro
+    - name: lyn-alden
+      url: "https://www.lynalden.com/feed/"
+      enabled: true
+      category: macro
+    - name: kyla-scanlon
+      url: "https://kylascanlon.substack.com/feed"
+      enabled: true
+      category: macro
+    - name: george-pearkes
+      url: "https://pearkes.substack.com/feed"
+      enabled: true
+      category: macro
+    - name: the-big-picture
+      url: "https://ritholtz.com/feed/"
+      enabled: true
+      category: macro
