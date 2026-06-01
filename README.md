@@ -53,7 +53,7 @@ uv run import-feeds.py
 
 Script is idempotent — skips existing feeds, creates missing categories.
 
-###日常运维
+### Maintain
 
 ```bash
 # Update
